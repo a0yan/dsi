@@ -1,0 +1,48 @@
+.contact_us{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 5%;
+}
+.logo_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.logo{
+    display: flex;
+    padding-bottom:3%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding-left: 2%;
+    
+}
+.contain{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.address{
+    font-size: 14px;
+    line-height:1.5em;
+}
+.contain > *{
+    width: 60%;
+}
+@media (max-width:960px) {
+    .contact_us{
+        flex-direction: column;
+        align-items:stretch;
+        justify-content: center;
+        margin: 4%;
+    }
+    .logo_container{
+        margin: 0;
+    }
+    .contain{
+        margin: 2% 0;
+    }
+}

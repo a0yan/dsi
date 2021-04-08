@@ -1,0 +1,15 @@
+.bottom_section{
+    padding-top: 5%;
+    text-align: center;
+}
+.elements{
+    display: flex;
+    padding: 0 15%;
+}
+@media (max-width:960px) {
+    .elements{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
