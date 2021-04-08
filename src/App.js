@@ -5,9 +5,12 @@ import MidSection from './components/midsection/midsection'
 import BottomSection from './components/bottomsection/bottomsection'
 import ContactUs from './components/contactus/contactus'
 import Footer from './components/footer/footer'
+import Sliderbar from './components/sliderbar/sliderbar'
+import './App.css'
 function App() {
   return (
-    <div>
+    <div className='App'>
+    <Sliderbar/>
     <Navbar/>
     <TopSection/>
     <MidSection/>
@@ -18,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default (App);

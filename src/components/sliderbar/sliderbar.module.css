@@ -1,0 +1,33 @@
+
+.sliderbar{
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    min-height: 100%;
+    text-align: center;
+    justify-content: right;
+    padding-top: 7%;
+    z-index: 1;
+    transform: translateX(-100%);
+    
+    
+}
+@media (max-width:960px) {
+    .sliderbar{
+        display: initial;
+        transition: all 2s linear;
+        transform: translateX(-100%);
+    }
+    .sliderbar.active{ 
+        transform: translateX(1.5%);
+        background-color: #EE4248;  
+       }
+    
+       .option{
+           padding: 5%;
+       }
+       .option:hover{
+           cursor: pointer;
+           color: white;
+       }
+}

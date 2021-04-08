@@ -24,6 +24,13 @@
     justify-content: space-evenly;
     flex: 0.55;
 }
+.option:hover{
+cursor: pointer;
+color: #ee4248;
+}
+.icon:hover{
+    cursor: pointer;
+}
 .icons{
     display: flex;
     justify-content: space-evenly;
@@ -51,6 +58,9 @@
     .ham{
         display:unset;
         margin-right: 5%;
+    }
+    .ham:hover{
+        cursor: pointer;
     }
     
     
